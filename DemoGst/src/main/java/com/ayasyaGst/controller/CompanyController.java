@@ -84,7 +84,7 @@ public class CompanyController {
 		}
 	}
 	
-	// save Company  by name
+	// save Company  by name and find name
 	
 	public ResponseEntity<Object> saveCompanyByName(@RequestParam(value = "cname") String cname) {
 		
